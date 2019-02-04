@@ -23,4 +23,5 @@ def find_the_cheese(cheese)
       return type
     end
   end
+  return nil
 end
