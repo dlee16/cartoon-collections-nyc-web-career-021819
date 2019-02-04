@@ -13,7 +13,11 @@ return summon
 end
 
 def long_planeteer_calls(words)
-  if words.
+  if words.join(" ").length > 4
+    return true 
+  else
+    return false 
+  end 
 end
 
 def find_the_cheese# code an argument here
