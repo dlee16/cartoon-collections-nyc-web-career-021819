@@ -7,7 +7,7 @@ end
 def summon_captain_planet(element)
   summon =[]
   element.collect do |name| 
-    summon.push(name.capitalize + "!").join(" ")
+    summon.push(name.capitalize + "!")
   end
 
 end
