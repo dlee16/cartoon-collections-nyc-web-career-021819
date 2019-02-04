@@ -12,11 +12,7 @@ def summon_captain_planet(element)
 end
 
 def long_planeteer_calls(words)
-  if words.join(" ").length >4
-    return true 
-  else words.join(" ").length <=3
-    return false 
-  end 
+  words.any?
 end
 
 def find_the_cheese# code an argument here
