@@ -12,7 +12,7 @@ def summon_captain_planet(element)
 return summon
 end
 
-def long_planeteer_calls(calls)
+def long_planeteer_calls(words)
   # Your code here
 end
 
