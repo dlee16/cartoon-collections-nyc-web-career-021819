@@ -7,9 +7,9 @@ end
 def summon_captain_planet(element)
   summon =[]
   element.collect do |name| 
-    summon.push(name.capitalize + "!")
+    summon.push(name.capitalize + "!").join
   end
-  return summon
+
 end
 
 def long_planeteer_calls# code an argument here
