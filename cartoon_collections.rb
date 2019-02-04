@@ -22,6 +22,7 @@ def find_the_cheese(cheese)
     if cheese_types.include?(type)
       return type
     end
+    return nil
   end
   return nil
 end
