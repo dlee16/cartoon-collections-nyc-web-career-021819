@@ -12,7 +12,9 @@ def summon_captain_planet(element)
 end
 
 def long_planeteer_calls(words)
-  words.any?
+  words.any? do |words|
+    words.length >4
+    true
 end
 
 def find_the_cheese# code an argument here
