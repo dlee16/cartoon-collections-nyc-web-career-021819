@@ -15,7 +15,7 @@ end
 def long_planeteer_calls(words)
   if words.join(" ").length >4
     return true 
-  else words.join(" ").length <4
+  else words.join(" ").length <=3
     return false 
   end 
 end
